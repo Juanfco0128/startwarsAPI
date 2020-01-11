@@ -9,7 +9,7 @@ const People = () => {
 	return (
 		<div className="text-center mt-5">
 			<h1>StartWars</h1>
-			<div className="card-deck">
+			<div className="scrolling-wrapper">
 				{store.people.map((item, index) => {
 					return (
 						<div key={index} className="card">
